@@ -32,3 +32,4 @@ curl --location 'https://<app-name>.fly.dev/api/go-to-url?url=https%3A%2F%2Fwww.
 curl --location 'https://<app-name>.fly.dev/api/get-trace' > trace.zip
 ```
 
+You can also use `run-test.sh` to send multiple requests and have all the results saved.
